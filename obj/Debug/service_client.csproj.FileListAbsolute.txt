@@ -1,0 +1,51 @@
+C:\Users\stat01\source\repos\service_client\bin\Debug\service_client.exe.config
+C:\Users\stat01\source\repos\service_client\bin\Debug\service_client.exe
+C:\Users\stat01\source\repos\service_client\bin\Debug\service_client.pdb
+C:\Users\stat01\source\repos\service_client\obj\Debug\service_client.csprojAssemblyReference.cache
+C:\Users\stat01\source\repos\service_client\obj\Debug\service_client.Form1.resources
+C:\Users\stat01\source\repos\service_client\obj\Debug\service_client.Properties.Resources.resources
+C:\Users\stat01\source\repos\service_client\obj\Debug\service_client.csproj.GenerateResource.cache
+C:\Users\stat01\source\repos\service_client\obj\Debug\service_client.exe
+C:\Users\stat01\source\repos\service_client\obj\Debug\service_client.pdb
+C:\Users\apollo\Downloads\service_client\bin\Debug\service_client.exe.config
+C:\Users\apollo\Downloads\service_client\bin\Debug\service_client.exe
+C:\Users\apollo\Downloads\service_client\bin\Debug\service_client.pdb
+C:\Users\apollo\Downloads\service_client\obj\Debug\service_client.csprojAssemblyReference.cache
+C:\Users\apollo\Downloads\service_client\obj\Debug\service_client.Form1.resources
+C:\Users\apollo\Downloads\service_client\obj\Debug\service_client.Properties.Resources.resources
+C:\Users\apollo\Downloads\service_client\obj\Debug\service_client.csproj.GenerateResource.cache
+C:\Users\apollo\Downloads\service_client\obj\Debug\service_client.exe
+C:\Users\apollo\Downloads\service_client\obj\Debug\service_client.pdb
+C:\Users\apollo\Downloads\service_client\bin\Debug\System.Data.Odbc.dll
+C:\Users\apollo\Downloads\service_client\bin\Debug\System.Data.Odbc.xml
+C:\Users\apollo\Downloads\service_client\obj\Debug\service_client.csproj.CopyComplete
+C:\Users\apollo\Downloads\service_client\bin\Debug\NDbfReader.dll
+C:\Users\apollo\Downloads\service_client\bin\Debug\NDbfReader.xml
+C:\Users\apollo\Downloads\service_client\bin\Debug\DbfDataReader.dll
+C:\Users\apollo\Downloads\service_client — копия\bin\Debug\service_client.exe.config
+C:\Users\apollo\Downloads\service_client — копия\bin\Debug\service_client.exe
+C:\Users\apollo\Downloads\service_client — копия\bin\Debug\service_client.pdb
+C:\Users\apollo\Downloads\service_client — копия\bin\Debug\DbfDataReader.dll
+C:\Users\apollo\Downloads\service_client — копия\bin\Debug\NDbfReader.dll
+C:\Users\apollo\Downloads\service_client — копия\bin\Debug\System.Data.Odbc.dll
+C:\Users\apollo\Downloads\service_client — копия\bin\Debug\NDbfReader.xml
+C:\Users\apollo\Downloads\service_client — копия\bin\Debug\System.Data.Odbc.xml
+C:\Users\apollo\Downloads\service_client — копия\obj\Debug\service_client.csprojAssemblyReference.cache
+C:\Users\apollo\Downloads\service_client — копия\obj\Debug\service_client.Form1.resources
+C:\Users\apollo\Downloads\service_client — копия\obj\Debug\service_client.Properties.Resources.resources
+C:\Users\apollo\Downloads\service_client — копия\obj\Debug\service_client.csproj.GenerateResource.cache
+C:\Users\apollo\Downloads\service_client — копия\obj\Debug\service_client.csproj.CopyComplete
+C:\Users\apollo\Downloads\service_client — копия\obj\Debug\service_client.exe
+C:\Users\apollo\Downloads\service_client — копия\obj\Debug\service_client.pdb
+C:\Users\apollo\Downloads\service_client2\bin\Debug\service_client.exe.config
+C:\Users\apollo\Downloads\service_client2\bin\Debug\service_client.exe
+C:\Users\apollo\Downloads\service_client2\bin\Debug\service_client.pdb
+C:\Users\apollo\Downloads\service_client2\bin\Debug\System.Data.Odbc.dll
+C:\Users\apollo\Downloads\service_client2\bin\Debug\System.Data.Odbc.xml
+C:\Users\apollo\Downloads\service_client2\obj\Debug\service_client.csprojAssemblyReference.cache
+C:\Users\apollo\Downloads\service_client2\obj\Debug\service_client.Form1.resources
+C:\Users\apollo\Downloads\service_client2\obj\Debug\service_client.Properties.Resources.resources
+C:\Users\apollo\Downloads\service_client2\obj\Debug\service_client.csproj.GenerateResource.cache
+C:\Users\apollo\Downloads\service_client2\obj\Debug\service_client.csproj.CopyComplete
+C:\Users\apollo\Downloads\service_client2\obj\Debug\service_client.exe
+C:\Users\apollo\Downloads\service_client2\obj\Debug\service_client.pdb
