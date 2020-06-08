@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.OleDb;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -34,7 +35,7 @@ namespace service_client
         }
 
         // для вызова разных методов для обработки dbf-файла 
-        public void Work(string selectedRegionName, string selectedRegionNumber)
+        public async void Work(string selectedRegionName, string selectedRegionNumber)
         {
             // получить DataTable из dbf-файла
             DataTable commonDatatable = GetDatatableFromDbf();
@@ -136,9 +137,9 @@ namespace service_client
         }
 
         // для записи из DataTable в dbf-файл
-        private void WriteDatatableToDbf(DataTable dt, string regionName)
+        // асинхронный метод, чтобы не зависла программа
+        private async void WriteDatatableToDbf(DataTable dt, string regionName)
         {
-
 
             // имена столбцов
             ArrayList columnsNames = new ArrayList();
@@ -152,6 +153,7 @@ namespace service_client
             // перебор столбцов
             int rowLength = dt.Rows[0].ItemArray.Length;
             int count = 0;
+            Debug.WriteLine("1");
             // добавление столбцов для выходного DataTable
             foreach (DataColumn dc in dt.Columns)
             {
@@ -194,6 +196,7 @@ namespace service_client
                 count++;
                 if (rowLength == count) break;
             }
+            Debug.WriteLine("2");
 
             //Debug.WriteLine(columnsNames.Count);
 
@@ -212,7 +215,7 @@ namespace service_client
             try
             {
                 cmd.CommandText = deleteSql;
-                cmd.ExecuteNonQuery();
+                cmd.ExecuteNonQueryAsync();
             }
             catch
             {
@@ -223,9 +226,10 @@ namespace service_client
             // создать таблицу
             cmd.CommandText = createSql;
 
-            cmd.ExecuteNonQuery();
+            cmd.ExecuteNonQueryAsync();
 
             //Debug.WriteLine(createSql);
+            Debug.WriteLine("3");
 
             // Записать элементы в таблицу
             // перебор строк DataTable
@@ -246,19 +250,20 @@ namespace service_client
                 // выполнить SQL-запрос
                 cmd.CommandText = insertSql;
 
-                cmd.ExecuteNonQuery();
+                cmd.ExecuteNonQueryAsync();
             }
+            Debug.WriteLine("4");
 
             // это код не работает
             //////// округлить числа в таблице, потому что в оригинале нет лишьних нулей
             //////// перебор имён столбцов
             //////foreach (string columnName in columnsNames)
             //////{
-                
+
             //////    string roundSql = "UPDATE " + currentSortedDbfFileName + " SET " +
             //////                      columnName + "= ROUND(" + columnName + ", 0)";
             //////}
-            
+
 
             // закрыть подключение
             con.Close();
@@ -307,7 +312,8 @@ namespace service_client
         }
 
         // для изменения имени и перемещения файла 
-        private void MoveFileToDesktop(string oldFileName, string newFileName)
+        // асинхронный метод, чтобы не зависла программа
+        private async void MoveFileToDesktop(string oldFileName, string newFileName)
         {
             // допускается что старый файл, находиться в текущем каталоге
             string oldFilePath = oldFileName;

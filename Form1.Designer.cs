@@ -36,7 +36,8 @@
             this.endDate = new System.Windows.Forms.DateTimePicker();
             this.input_frame = new System.Windows.Forms.GroupBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.progressLabel = new System.Windows.Forms.Label();
             this.input_frame.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,7 +77,7 @@
             this.btn_save.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn_save.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btn_save.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_save.Location = new System.Drawing.Point(178, 278);
+            this.btn_save.Location = new System.Drawing.Point(183, 344);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(166, 45);
             this.btn_save.TabIndex = 3;
@@ -96,7 +97,7 @@
             this.startDate.Name = "startDate";
             this.startDate.Size = new System.Drawing.Size(147, 26);
             this.startDate.TabIndex = 0;
-            this.startDate.Value = new System.DateTime(2020, 6, 1, 0, 0, 0, 0);
+            this.startDate.Value = new System.DateTime(2020, 1, 1, 0, 0, 0, 0);
             this.startDate.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // endDate
@@ -109,6 +110,7 @@
             this.endDate.Name = "endDate";
             this.endDate.Size = new System.Drawing.Size(147, 26);
             this.endDate.TabIndex = 1;
+            this.endDate.Value = new System.DateTime(2020, 1, 30, 18, 15, 0, 0);
             // 
             // input_frame
             // 
@@ -136,25 +138,29 @@
             this.comboBox1.TabIndex = 4;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // label3
+            // progressBar1
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.LimeGreen;
-            this.label3.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(127, 349);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(292, 23);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Файлдар рабочий столго жуктолду";
-            this.label3.Click += new System.EventHandler(this.attention_Click);
+            this.progressBar1.Location = new System.Drawing.Point(92, 262);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(359, 23);
+            this.progressBar1.TabIndex = 4;
+            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
+            // 
+            // progressLabel
+            // 
+            this.progressLabel.AutoSize = true;
+            this.progressLabel.Location = new System.Drawing.Point(89, 304);
+            this.progressLabel.Name = "progressLabel";
+            this.progressLabel.Size = new System.Drawing.Size(0, 13);
+            this.progressLabel.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 450);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.progressLabel);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.btn_save);
             this.Controls.Add(this.input_frame);
             this.Name = "Form1";
@@ -175,8 +181,9 @@
         private System.Windows.Forms.DateTimePicker startDate;
         private System.Windows.Forms.DateTimePicker endDate;
         private System.Windows.Forms.GroupBox input_frame;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label progressLabel;
     }
 }
 

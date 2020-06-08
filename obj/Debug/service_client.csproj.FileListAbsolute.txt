@@ -49,3 +49,15 @@ C:\Users\apollo\Downloads\service_client2\obj\Debug\service_client.csproj.Genera
 C:\Users\apollo\Downloads\service_client2\obj\Debug\service_client.csproj.CopyComplete
 C:\Users\apollo\Downloads\service_client2\obj\Debug\service_client.exe
 C:\Users\apollo\Downloads\service_client2\obj\Debug\service_client.pdb
+C:\Users\apollo\source\repos\kabylan\ClientNationalStatisticsKG\bin\Debug\service_client.exe.config
+C:\Users\apollo\source\repos\kabylan\ClientNationalStatisticsKG\bin\Debug\service_client.exe
+C:\Users\apollo\source\repos\kabylan\ClientNationalStatisticsKG\bin\Debug\service_client.pdb
+C:\Users\apollo\source\repos\kabylan\ClientNationalStatisticsKG\bin\Debug\System.Data.Odbc.dll
+C:\Users\apollo\source\repos\kabylan\ClientNationalStatisticsKG\bin\Debug\System.Data.Odbc.xml
+C:\Users\apollo\source\repos\kabylan\ClientNationalStatisticsKG\obj\Debug\service_client.csprojAssemblyReference.cache
+C:\Users\apollo\source\repos\kabylan\ClientNationalStatisticsKG\obj\Debug\service_client.Form1.resources
+C:\Users\apollo\source\repos\kabylan\ClientNationalStatisticsKG\obj\Debug\service_client.Properties.Resources.resources
+C:\Users\apollo\source\repos\kabylan\ClientNationalStatisticsKG\obj\Debug\service_client.csproj.GenerateResource.cache
+C:\Users\apollo\source\repos\kabylan\ClientNationalStatisticsKG\obj\Debug\service_client.csproj.CopyComplete
+C:\Users\apollo\source\repos\kabylan\ClientNationalStatisticsKG\obj\Debug\service_client.exe
+C:\Users\apollo\source\repos\kabylan\ClientNationalStatisticsKG\obj\Debug\service_client.pdb
